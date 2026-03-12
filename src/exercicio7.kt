@@ -7,7 +7,7 @@ fun main() {
         Produto("Lápis", 2.0)
     )
 
-    // Busca o item com o maior preço
+    
     val maisCaro = produtos.maxByOrNull { it.preco }
     println("O produto mais caro é: ${maisCaro?.nome}")
 }
